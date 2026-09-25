@@ -1,0 +1,4 @@
+# Example bulk ASN input file for asn-mapper --input
+AS15169
+AS13335
+AS16509

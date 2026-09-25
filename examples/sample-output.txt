@@ -1,0 +1,62 @@
+╭────────────────────────────────────────────╮
+│              ASN ASSET MAPPER              │
+╰────────────────────────────────────────────╯
+   Map the Public Network Footprint of an ASN · v1.0.0 · by Mr Dinesh Pathro    
+
+[+] Target ASN : AS15169
+[+] Fetching ASN information for AS15169 ...
+[+] ASN AS15169 — Organization: Google LLC | Country: US | Registry: ARIN
+[+] Collecting announced prefixes for AS15169 ...
+[+] Collected 38 IPv4 and 11 IPv6 prefixes
+[✓] AS15169: 38 IPv4 / 11 IPv6 prefixes
+──────────────────────────────────────────────────────────────
+RESULTS — AS15169
+──────────────────────────────────────────────────────────────
+Target ASN    AS15169                         
+Organization  Google LLC                      
+AS Name       GOOGLE                          
+Country       US                              
+Registry      ARIN                            
+Website       https://www.google.com          
+Sources       Custom dataset (custom-bgp.json)
+
+IPv4 Prefixes
+-------------
+8.8.4.0/24        8.8.8.0/24        8.34.208.0/20     8.35.192.0/20  
+23.236.48.0/20    23.251.128.0/19   34.0.0.0/15       34.2.0.0/16    
+34.64.0.0/10      35.184.0.0/13     35.192.0.0/14     35.196.0.0/15  
+64.15.112.0/20    64.233.160.0/19   66.102.0.0/20     66.249.64.0/19 
+70.32.128.0/19    72.14.192.0/18    74.125.0.0/16     104.154.0.0/15 
+104.196.0.0/14    107.167.160.0/19  107.178.192.0/18  108.59.80.0/20 
+108.170.192.0/18  130.211.0.0/16    142.250.0.0/15    146.148.0.0/17 
+152.65.208.0/22   172.217.0.0/16    172.253.0.0/16    173.194.0.0/16 
+192.158.28.0/22   192.178.0.0/15    193.186.4.0/24    209.85.128.0/17
+216.58.192.0/19   216.239.32.0/19                                    
+
+IPv6 Prefixes
+-------------
+2001:4860::/32  2404:6800::/32  2404:f340::/32      2600:1900::/28    
+2606:40::/32    2607:f8b0::/32  2620:11a:a000::/40  2620:120:e000::/36
+2800:3f0::/32   2a00:1450::/32  2c0f:fb50::/32                        
+
+Prefix Statistics
+-----------------
+IPv4 Prefixes               38                                                  
+IPv6 Prefixes               11                                                  
+Total                       49                                                  
+IPv4 Addresses represented  6,490,880                                           
+IPv6 Address space          ≈1.50×2^100 addresses                               
+IPv4 prefix lengths         /10 – /24                                           
+IPv6 prefix lengths         /28 – /40                                           
+IPv4 distribution           /10: 1  /13: 1  /14: 2  /15: 5  /16: 6  /17: 2  /18:
+                            3  /19: 7  /20: 6  /22: 2  /24: 3                   
+IPv6 distribution           /28: 1  /32: 8  /36: 1  /40: 1                      
+
+Sources
+-------
+Custom  BGP  2026-09-25T10:02:11Z  ASN metadata         
+Custom  BGP  2026-09-25T10:02:11Z  49 announced prefixes
+
+Completed in 0.00s
+
+Completed in 0.00s

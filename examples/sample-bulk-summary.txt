@@ -1,0 +1,69 @@
+╭────────────────────────────────────────────╮
+│              ASN ASSET MAPPER              │
+╰────────────────────────────────────────────╯
+   Map the Public Network Footprint of an ASN · v1.0.0 · by Mr Dinesh Pathro    
+
+[+] Target ASNs: AS15169, AS13335, AS16509
+[+] Fetching ASN information for AS15169 ...
+[+] ASN AS15169 — Organization: Google LLC | Country: US | Registry: ARIN
+[+] Collecting announced prefixes for AS15169 ...
+[+] Collected 38 IPv4 and 11 IPv6 prefixes
+[+] Fetching ASN information for AS13335 ...
+[+] ASN AS13335 — Organization: Cloudflare, Inc. | Country: US | Registry: ARIN
+[+] Collecting announced prefixes for AS13335 ...
+[+] Collected 105 IPv4 and 8 IPv6 prefixes
+[+] Fetching ASN information for AS16509 ...
+[+] ASN AS16509 — Organization: Amazon.com, Inc. | Country: US | Registry: ARIN
+[+] Collecting announced prefixes for AS16509 ...
+[+] Collected 30 IPv4 and 7 IPv6 prefixes
+[✓] AS15169: 38 IPv4 / 11 IPv6 prefixes
+[✓] AS13335: 105 IPv4 / 8 IPv6 prefixes
+[✓] AS16509: 30 IPv4 / 7 IPv6 prefixes
+ASN Summary
+-----------
+ASN               AS15169              
+Organization      Google LLC           
+Country           US                   
+Registry          ARIN                 
+IPv4 Prefixes     38                   
+IPv6 Prefixes     11                   
+Domains           0                    
+Reverse DNS hits  0                    
+CT names          0                    
+IPv4 Space        6,490,880 addresses  
+IPv6 Space        ≈1.50×2^100 addresses
+
+ASN Summary
+-----------
+ASN               AS13335             
+Organization      Cloudflare, Inc.    
+Country           US                  
+Registry          ARIN                
+IPv4 Prefixes     105                 
+IPv6 Prefixes     8                   
+Domains           0                   
+Reverse DNS hits  0                   
+CT names          0                   
+IPv4 Space        1,557,963 addresses 
+IPv6 Space        ≈1.88×2^99 addresses
+
+ASN Summary
+-----------
+ASN               AS16509              
+Organization      Amazon.com, Inc.     
+Country           US                   
+Registry          ARIN                 
+IPv4 Prefixes     30                   
+IPv6 Prefixes     7                    
+Domains           0                    
+Reverse DNS hits  0                    
+CT names          0                    
+IPv4 Space        65,883,136 addresses 
+IPv6 Space        ≈1.17×2^104 addresses
+
+──────────────────────────────────────────────────────────────
+Processed   3
+Successful  3
+Failed      0
+Processed: 3 ASNs | Successful: 3 | Failed: 0
+Completed in 0.01s

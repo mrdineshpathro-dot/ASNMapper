@@ -1,0 +1,76 @@
+# Example configuration file for ASN Asset Mapper.
+# Copy to ~/.config/asn-asset-mapper/config.yaml (or pass --config FILE).
+# Every value below is the built-in default — uncomment and change what you need.
+
+# ---------------------------------------------------------------------------
+# General
+# ---------------------------------------------------------------------------
+# user_agent: "ASN-Asset-Mapper/1.0.0 (+https://github.com/mrdineshpathro-dot/ASNMapper)"
+# threads: 10                      # worker threads for reverse DNS
+
+# ---------------------------------------------------------------------------
+# HTTP behaviour (timeouts, retries, politeness)
+# ---------------------------------------------------------------------------
+# http:
+#   timeout: 15                    # per-request timeout in seconds
+#   retries: 3                     # retries for transient failures
+#   backoff_base: 1.0              # exponential backoff base (seconds)
+#   max_delay: 30                  # upper bound for a single backoff sleep
+#   min_request_interval: 0.5      # minimum interval between requests (rate limit)
+#   verify_tls: true
+
+# ---------------------------------------------------------------------------
+# Data providers
+# ---------------------------------------------------------------------------
+# providers:
+#   bgp_providers: [ripestat, bgpview, custom]   # fallback order
+#   rdap_order: [bootstrap, arin, ripe, apnic, lacnic, afrinic]
+#   rdap_endpoints:
+#     bootstrap: https://rdap.org
+#     arin: https://rdap.arin.net/registry
+#     ripe: https://rdap.db.ripe.net
+#     apnic: https://rdap.apnic.net
+#     lacnic: https://rdap.lacnic.net/rdap
+#     afrinic: https://rdap.afrinic.net/rdap
+#   ripestat_url: https://stat.ripe.net/data
+#   bgpview_url: https://api.bgpview.io
+#   crt_sh_url: https://crt.sh/
+#   ct_timeout: 60
+#   custom_bgp_path: ""            # local JSON dataset for offline/air-gapped use
+
+# ---------------------------------------------------------------------------
+# Reverse DNS (conservative sampling)
+# ---------------------------------------------------------------------------
+# dns:
+#   timeout: 4
+#   retries: 2
+#   concurrency: 10                # bounded thread pool size
+#   sample_per_prefix: 2           # PTR samples per prefix
+#   max_lookups: 256               # hard cap on PTR lookups per run
+#   nameservers: []                # empty = system resolvers
+#   negative_cache_ttl: 3600
+
+# ---------------------------------------------------------------------------
+# Cache
+# ---------------------------------------------------------------------------
+# cache:
+#   enabled: true
+#   ttl: 86400                     # 24h
+#   directory: ~/.cache/asn-asset-mapper
+
+# ---------------------------------------------------------------------------
+# Output limits
+# ---------------------------------------------------------------------------
+# output:
+#   max_prefix_display: 50         # console truncation (exports are complete)
+#   max_domains_display: 50
+#   max_reverse_display: 50
+#   max_expand_display: 20
+#   max_expand_hosts: 10000        # --expand enumeration safety cap
+#   json_indent: 2
+
+# ---------------------------------------------------------------------------
+# Logging
+# ---------------------------------------------------------------------------
+# logging:
+#   file: asn_mapper.log
