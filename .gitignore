@@ -1,0 +1,39 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local caches created by the tool
+.cache/asn-asset-mapper/
+
+# Logs & scratch output
+asn_mapper.log
+*.log
+results/
+output/
+
+# Environment / secrets — never commit API keys
+.env
+.env.local
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
